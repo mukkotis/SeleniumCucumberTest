@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Way2Automation Cucumber Reports</td>
         <td>1</td>
-      <td>03 Dec 2020, 12:55</td>
+      <td>09 Dec 2020, 10:05</td>
     </tr>
   </tbody>
 </table>
@@ -140,7 +140,7 @@ $(document).ready(function() {
           <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="17138967654">17.138</td>
+          <td class="duration" data-value="47466947600">47.466</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -191,7 +191,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">17.138</span>
+  <span class="lead-duration duration">47.466</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -229,7 +229,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">seleniumSteps.setUp()</span>
 
-  <span class="lead-duration duration">4.014</span>
+  <span class="lead-duration duration">8.696</span>
 
           </div>
 
@@ -266,7 +266,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">navigate to <span class="argument">&quot;http://www.google.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.931</span>
+  <span class="lead-duration duration">1.234</span>
 
 </div>
 
@@ -293,7 +293,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">We type the keyword in google edit box</span>
 
-  <span class="lead-duration duration">5.147</span>
+  <span class="lead-duration duration">5.070</span>
 
 </div>
 
@@ -320,7 +320,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">We click on Google Search button</span>
 
-  <span class="lead-duration duration">5.981</span>
+  <span class="lead-duration duration">6.114</span>
 
 </div>
 
@@ -347,7 +347,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">We validate the <span class="argument">&quot;cucumbe&quot;</span></span>
 
-  <span class="lead-duration duration">5.078</span>
+  <span class="lead-duration duration">35.047</span>
 
 </div>
 
@@ -359,13 +359,33 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>junit.framework.ComparisonFailure:</a>
+          <a>org.openqa.selenium.NoSuchElementException:</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>junit.framework.ComparisonFailure: expected:&lt;[cucumbe]&gt; but was:&lt;[Cucumber]&gt;
-	at junit.framework.Assert.assertEquals(Assert.java:100)
-	at junit.framework.Assert.assertEquals(Assert.java:107)
-	at steps.seleniumSteps.we_validate_the(seleniumSteps.java:91)
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;rso&quot;]/div[1]/div[1]/div/div[1]/div/div[2]/div/span/span/b[1]&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DP26306', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\MUKKOT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4350c733dcb02a26d50884db9e698ee
+*** Element info: {Using=xpath, value=//*[@id=&quot;rso&quot;]/div[1]/div[1]/div/div[1]/div/div[2]/div/span/span/b[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at steps.seleniumSteps.we_validate_the(seleniumSteps.java:98)
 	at &#10045;.We validate the &quot;cucumbe&quot;(file:src/test/resources/features/Selenium.feature:7)
 </pre>
       </div>
@@ -390,9 +410,9 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-5">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
 
@@ -402,32 +422,99 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details  in ">
         <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">After</span>
               <span class="location name">seleniumSteps.tearDown(Scenario)</span>
 
-  <span class="lead-duration duration">1.493</span>
+  <span class="lead-duration duration">0.987</span>
 
           </div>
 
 
 
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
+          <a>Error message</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details  in ">
+        <pre>java.io.IOException: Destination 'C:\Users\lenovo\Desktop\Workspace_Ibm_Manipal_Selenim_Cucumber_Nov2020\SeleniumCucumber\FailedScreenshot' directory cannot be created
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1070)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1028)
+	at steps.seleniumSteps.tearDown(seleniumSteps.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.TestCase.run(TestCase.java:50)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
+
+  <div class="outputs inner-level">
+      <div class="output indention">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#output-7">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-7" class="collapse collapsable-details  in "  aria-expanded="true" >
+          
+          <pre><p>Check the typing of keyword</p></pre>
+        </div>
+      </div>
+  </div>
 
   <div class="embeddings inner-level">
   <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
+    <div data-toggle="collapse" data-target="#embedding-8" class="collapsable-control">
       <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_181173988.png" download target="_blank">
+      <a href="embeddings/embedding_-1403277778.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
-    <div id="embedding-6" class="collapse collapsable-details ">
+    <div id="embedding-8" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_181173988.png">
+        <img src="embeddings/embedding_-1403277778.png">
       </div>
     </div>
   </div>
