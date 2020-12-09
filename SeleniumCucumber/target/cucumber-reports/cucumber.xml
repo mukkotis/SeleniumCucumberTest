@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.673386">
+<testcase classname="To type a keyword in Google website" name="Check the typing of keyword" time="22.673386">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[cucumbe]&gt; but was:&lt;[Cucumber]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at steps.seleniumSteps.we_validate_the(seleniumSteps.java:91)&#13;&#10;&#9;at ✽.We validate the &quot;cucumbe&quot;(file:src/test/resources/features/Selenium.feature:7)&#13;&#10;"><![CDATA[Given navigate to "http://www.google.com"...................................passed
+When We type the keyword in google edit box.................................passed
+And We click on Google Search button........................................passed
+Then We validate the "cucumbe"..............................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[cucumbe]> but was:<[Cucumber]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at steps.seleniumSteps.we_validate_the(seleniumSteps.java:91)
+	at ✽.We validate the "cucumbe"(file:src/test/resources/features/Selenium.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

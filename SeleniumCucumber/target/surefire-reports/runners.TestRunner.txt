@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.303 sec <<< FAILURE! - in runners.TestRunner
+Check the typing of keyword(To type a keyword in Google website)  Time elapsed: 22.687 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[cucumbe]> but was:<[Cucumber]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at steps.seleniumSteps.we_validate_the(seleniumSteps.java:91)
+	at ?.We validate the "cucumbe"(file:src/test/resources/features/Selenium.feature:7)
+
